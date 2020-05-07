@@ -1,0 +1,385 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 14px !important;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+p {
+    color: #666 !important;
+    line-height: 27px;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+}
+
+h2 span {
+    color: #427900 !important;
+}
+
+h2 {
+    font-size: 36px !important;
+}
+
+h5 {
+    font-size: 18px !important;
+}
+/*Header CSS*/
+.top-bar {
+    background-color:#316DC3;
+    padding: 6px 0px;
+    vertical-align: middle;
+}
+
+.top-bar .btn-light {
+    font-size: 11px;
+    margin:8px 3px;
+    padding: 5px 8px;
+    color: #427900;
+}
+
+.top-bar .btn-light:hover {
+    background-color: #427900;
+}
+
+.top-bar ul li i {
+    margin-top: 10px;
+    margin-bottom:0px;
+}
+
+
+.main-bar {
+    background-color: #f7f8fa;
+    padding: 9px 0px;
+}
+
+.main-bar .logo {
+    height:50px;
+}
+
+.main-bar nav a {
+    font-size: 13px;
+    font-weight: 600;
+    color: #111;
+    transition: 300ms;
+    margin:2px;
+}
+
+.main-bar nav {
+    margin-top:5px;
+}
+.nav-pills .nav-link.active {
+    color: #fff !important;
+    background-color: #316DC3 !important;
+    border-radius: 20px;
+}
+
+.nav-pills .nav-link:hover {
+    color: #fff !important;
+    border-radius: 20px;
+    background-color: #316DC3;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+
+/* Bullet Ins Home */
+#bullet-ins {
+    background-color: #316DC3;
+    color: #fff;
+}
+
+#bullet-ins ul {
+    margin: 0px;
+}
+
+#bullet-ins ul li span {
+    color: rgb(0, 255, 0) !important;
+}
+
+#bullet-ins ul li {
+    padding:6px;
+}
+
+
+#bullet-ins ul li a {
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 2px 12px;
+    margin-left: 6px;
+    border-radius: 20px;
+}
+
+#bullet-ins ul li a:hover {
+    background-color: #fff;
+    color: #316DC3;
+}
+
+#bullet-ins .container-fluid {
+    padding: 0;
+}
+
+
+/* Home Intro */
+#home-intro {
+    background-color: #f7f8fa;
+    padding:60px 0px; 
+}
+
+.h-img {
+    width: 140px;
+    height:auto;
+    margin:0 auto;
+    margin-bottom: 24px;
+}
+.h-img::before {
+    content:" ";
+    display: block;
+    height: 2px;
+    background-color: #427900;
+    width:40px;
+    margin-top:14px;
+    float: left;
+}
+
+.h-img::after {
+    content:" ";
+    display: block;
+    height: 2px;
+    background-color: #427900;
+    width:40px;
+    margin-top:14px;
+    float: right;
+}
+
+/* Home Stats */
+
+#stats {
+    background-color: #316DC3;
+    color: #fff;
+    padding:60px 0px; 
+}
+
+#stats img {
+    width:40px;
+    margin-bottom:26px;
+    margin-top:20px;
+}
+
+#stats .stats-number {
+    color: #fff !important;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+
+#stats .stats-label {
+    color: #fff !important;
+    font-family: 'Merriweather', serif;
+    margin-bottom:20px;
+}
+
+#stats .stats-label span {
+    color: rgb(0, 255, 0) !important;
+}
+
+
+/* Home Services */
+
+#home-services {
+    background-color: #f7f8fa;
+    padding:60px 0px; 
+}
+
+#home-services .services-card {
+    background-color: #fff;
+    margin-bottom:15px;
+}
+
+#home-services .services-card img {
+    width: 70px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+}
+
+#home-services .services-card h5 {
+    margin-bottom:16px;
+}
+
+/* Home Mission */
+
+#home-mission {
+    padding:60px 0px; 
+}
+
+#home-mission h3 {
+    border-bottom: 1px solid #ddd;
+}
+
+#home-mission h3::after {
+    content: " ";
+    display: block;
+    width:60px;
+    height: 2px;
+    background-color:  #427900;
+    margin-top: 14px;
+}
+
+.mission-card {
+    background-color: #f7f8fa;
+    border: 1px solid #eee;
+    align-items: middle;
+    margin-bottom: 8px;
+}
+
+.mission-card img {
+    margin-right: 16px;
+}
+
+.mission-card h5 {
+    vertical-align: middle;
+}
+
+#home-mission marquee {
+    height: 190px;
+    margin-top:26px;
+}
+
+#home-mission marquee ul {
+    padding-left:0px;
+    margin:0;
+}
+
+#home-mission marquee ul li {
+    display: block;
+    list-style: none;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ddd;
+    padding:12px;
+}
+
+#home-mission marquee ul li:hover {
+    background-color: #f7f8fa;
+}
+
+#home-mission marquee ul li a {
+    display: block;
+    border: 1px solid #316DC3;
+    color: #316DC3;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 2px 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+#home-mission marquee ul li a:hover {
+    background-color: #316DC3;
+    color: #fff;
+}
+
+/* Home Image Gallery */
+
+#img-gallery {
+    padding:60px 0px; 
+}
+
+#img-gallery .img-thumb img {
+    width: 226px;
+    padding: 2px;
+    margin-bottom:20px;
+}
+
+/*Footer CSS*/
+footer {
+    margin-top:40px;
+}
+
+footer .footer-content {
+    background-color: rgb(37, 39, 46);
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+footer .copy-bar {
+    background-color: #316DC3;
+    color: #fff;
+    font-size: 12px;
+    padding: 8px 0;
+}
+
+footer .social-icons ul li {
+    margin: 0 !important;
+    vertical-align: middle;
+}
+
+footer .social-icons ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #316DC3;
+    height:42px;
+    width:42px;
+    border-radius: 20px;
+    margin:8px !important;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+footer .social-icons ul li a:hover {
+    background-color: #fff;
+    color: #316DC3 !important;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer h6 {
+    border-bottom: 1px solid #666;
+    color: #fff;
+}
+footer h6::after {
+    content: " ";
+    display: block;
+    width:60px;
+    height: 2px;
+    background-color:  #427900;
+    margin-top: 14px;
+}
+
+footer p {
+    color: #fff !important;
+}
+
+footer .contact-info ul  {
+    padding: 0;
+}
+
+footer .contact-info ul li {
+    list-style:none;
+    padding-bottom: 6px;
+}
+
+footer .contact-info i {
+    margin-right:6px;
+    color: #427900;
+}
+
+footer .copy-bar a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+footer .copy-bar a:hover {
+    color: rgb(0, 255, 0) !important;
+}
