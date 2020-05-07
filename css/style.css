@@ -53,19 +53,20 @@ h5 {
 
 .main-bar {
     background-color: #f7f8fa;
-    padding: 9px 0px;
+    padding: 0px 0px;
 }
 
 .main-bar .logo {
     height:50px;
 }
 
-.main-bar nav a {
+.main-bar .navbar-nav a {
     font-size: 13px;
     font-weight: 600;
-    color: #111;
+    color: #111 !important;
     transition: 300ms;
     margin:2px;
+    padding: 8px 16px !important;
 }
 
 .main-bar nav {
